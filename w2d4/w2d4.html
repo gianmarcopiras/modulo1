@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .logo img{
+            width:200px;
+            padding: 10px;
+        }
+        header{
+            display: flex;
+            padding: 20px;
+            justify-content: space-between;
+            border-bottom: 1px solid black;
+        }
+        .navbar{
+            display: flex;
+            justify-content: end;
+            width: 10%;
+            height: 40px;
+            gap: 20px;
+            cursor: pointer;
+        }
+        .navbar button{
+            border-radius: 50px;
+            font-size: 20px;
+            padding: 5px 30px;
+            padding-bottom: 10px;
+            white-space: nowrap;
+            cursor: pointer;
+            text-align: center;
+            background-color: white;
+        }
+        main{
+            display: flex;
+            justify-content: space-around;
+        }
+        .principale{
+            border-right: 1px solid black;
+            width: 70%;
+            padding: 0px 60px;
+            height: 2000px;
+        }
+        #left-bar{
+            display: flex;
+            border-bottom: 1px solid black;
+            padding-top: 40px;
+            cursor: pointer;
+        }
+        #left-bar h2{
+            margin: 20px;
+            font-size: 20px;
+        }
+        article{
+            display: flex;
+            justify-content: space-around;
+            margin-top: 40px;
+        }
+        img{
+            width: 20%;
+        }
+        article img{
+            width: 100%;
+        }
+        h3{
+            margin-top: 10px;
+        }
+        .scndbookmark{
+            display: flex;
+            justify-content: space-between;
+            justify-content: flex-start;
+            margin-top: 10px;
+            font-size: small;
+            align-items: center;
+            white-space: nowrap;
+        }
+        .scndbookmark p{
+            padding: 2px;
+        }
+        .scndbookmark button{
+            border-radius: 50px;
+            padding: 5px 10px;
+            border: none;
+            cursor: pointer;
+            color: grey;
+        }
+        .scndbookmark img{
+            width: 25px;
+            cursor: pointer;
+        }
+        .finalicon{
+            display: flex;
+            justify-content: space-between;
+            margin-left: 240px;
+            margin-top: 10px;
+            gap: 10px;
+        }
+        .text h3{
+            margin-bottom: 10px;
+        }
+        .text{
+            width: 70%;
+        }
+        .text p{
+            color: grey;
+        }
+        .nuove-tecnologie{
+            width: 500px;
+        }
+        .sidebar{
+width: 30%;
+text-align: center;
+margin-top: 40px;
+border-bottom: 1px solid black;
+        }
+        #treloghi img{
+            display: inline-block;
+            width: 40px;
+            margin-bottom: 20px;
+        }
+        .twitter img{
+width: 25px;
+margin-right: 10px;
+        }
+        .twitter{
+            padding: 10px 50px 20px;
+            margin-top: 20px;
+            margin-bottom: 30px;
+            border-radius: 30px;
+background-color: white;
+cursor: pointer;
+transition: background-color 0,3 ease;
+        }
+        button:hover{
+            background-color:cornsilk;
+        }
+        .a{
+            color:gray;
+            border-bottom: 1px solid black;
+            padding-bottom: 20px;
+            display: block;
+            width: 80%;
+            margin-left: 40px;
+        }
+        .Recommended-topics{
+        text-align: start;
+        padding: 40px;
+        }
+        .button-row{
+display: flex;
+flex-wrap:wrap;
+gap: 10px;
+justify-content: center;
+justify-content: flex-start;
+margin-left: 40px;
+        }
+        .bottoni-row{
+            flex: 1 1 calc(33,33% - 10px);
+            max-width: calc(33,33% - 10px);
+            padding: 10px 20px;
+            border-radius: 50px;
+            cursor: pointer;
+            text-align: center;
+        }
+        .loghetto{
+            width: 10%;
+            display: flex;
+            text-align: center;
+            align-items: center;
+        }
+       
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+<img src="/Medium_(website)_logo.svg" alt="logo">
+        </div>
+        <div class="navbar">
+            <img src="/bookmark.svg" alt="bookmark">
+            <img src="star.svg" alt="star">
+            <img src="trending.svg" alt="trending">
+            <button>resume memebership</button>
+            <img src="/google-icon-2048x2048-pks9lbdv.png" alt="google icon">
+        </div>
+    </header>
+    <main>
+        <div class="principale">
+            <section id="left-bar">
+                <h2>following</h2>
+                <h2>reccomended for you</h2>
+            </section>
+       <article>
+        <div class="text">
+            <div class="loghetto">
+            <img src="/Immagine 2024-12-18 220538.png" alt="logo">
+            <h5>kolby</h5>
+        </div>
+            <h1>react state</h1>
+            <p>at the beginning Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique quo esse odit ea quidem. Minus cupiditate suscipit asperiores ducimus, dolorum repellat, qui aliquam consectetur eligendi iste laudantium, id rem laboriosam.</p>
+            <div class="scndbookmark">
+                <p>dec 3</p>
+                <p>·</p>
+                <p>4 min read</p>
+                <p>·</p>
+                <button>react</button>
+                <p>·</p>
+                <p>popular on medium</p>
+                <div class="finalicon">
+            <img src="/bookmark.svg" alt="bookmark">
+            <img src="/Immagine 2024-12-18 223305.png" alt="info">
+        </div>
+            </div>
+        </div>
+                <div class="nuove-tecnologie">
+                    <img src="/nuove-tecnologie.jpg" alt="nuove-tecnologie">
+                </div>
+       </div>
+       <div class="sidebar">
+        <div id="treloghi">
+<img src="/medium-icon.svg" alt="medium-icon">
+<img src="/Immagine 2024-12-17 081549.png" alt="plus">
+<img src="/Logo_of_Twitter.svg.png" alt="twitter">
+</div>
+<p>Discover Medium</p>
+<button class="twitter"><img src="/Logo_of_Twitter.svg.png" alt="">Connect to twitter</button> <br>
+<a class="a" href="#">maybe later</a>
+<p class="Recommended-topics"><strong>Recommended topics</strong></p>
+<div class="button-row">
+    <button class="bottoni-row">technology</button>
+    <button class="bottoni-row">money</button>
+    <button class="bottoni-row">business</button>
+    <button class="bottoni-row">productivity</button>
+</div>
+       </div>
+    </main>
+</body>
+</html>
